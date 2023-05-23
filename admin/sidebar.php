@@ -9,9 +9,10 @@ if (!isset($_COOKIE['auth']) || $_COOKIE['auth'] !== 'true' || $_COOKIE['role'] 
     <a href="salle.php">Salles</a>
     <a href="examens.php">Examens</a>
     <a href="affectation.php">Affectation</a>
-    <a href="ajoute_affectation.php">Ajouter Affectation</a>
+    
     <a href="add_salle.php">Ajouter salle</a>
     <a href="ajoute_examens.php">Ajouter Examen</a>
+    <a href="ajoute_affectation.php">Ajouter Affectation</a>
     <a href="../logout_unset.php" class="logout-btn">Logout</a>
     
 </div>
